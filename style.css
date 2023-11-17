@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid lime;
 }
 
 header {
@@ -21,6 +20,7 @@ nav {
     background-color: lightcoral;
     height: 50px;
 }
+
 
 header h1 {
     background-color: lightgreen;
@@ -42,9 +42,9 @@ header div {
 }
 
 .section {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    padding-top: 200px;
+    padding-block: 100px;
     padding-inline: 300px;
     gap: 50px;
 
@@ -89,4 +89,12 @@ header div {
 footer {
     background-color: #23272a;
     height: 500px;
+}
+
+.up {
+    margin-bottom: -150px;
+}
+
+.down {
+    margin-top: -200px;
 }
