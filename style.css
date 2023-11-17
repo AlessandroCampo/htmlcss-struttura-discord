@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid lime;
+}
+
+header {
+    background-color: #3161e0;
+}
+
+.headcontainer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    background-color: lightcoral;
+    height: 50px;
+}
+
+header h1 {
+    background-color: lightgreen;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+header p {
+    background-color: lightpink;
+    height: 150px;
+    margin-bottom: 150px;
+}
+
+header div {
+    width: 40%;
+    /* margin: auto; */
+    align-self: center;
+    margin-top: 150px;
+}
+
+.section {
+    margin: auto;
+    display: flex;
+    padding-top: 200px;
+    padding-inline: 300px;
+    gap: 50px;
+
+}
+
+.section.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #f6f6f6;
+}
+
+.frogimg {
+    background-color: #7ce4cc;
+    height: 350px;
+    flex-basis: 50%;
+}
+
+
+.sidetext {
+    height: 350px;
+    background-color: black;
+    flex-basis: 50%;
+}
+
+.middle-text {
+    height: 150px;
+    background-color: black;
+}
+
+.frogimg2 {
+    height: 400px;
+    background-color: #7ce4cc;
+}
+
+footer {
+    background-color: #23272a;
+    height: 500px;
+}
